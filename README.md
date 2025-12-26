@@ -1,4 +1,4 @@
-# Docker corner
+# Docker Corner
 
 This is my personal Docker experiment zone — a place where I experiment, learn, and occasionally mess things up while figuring out Docker step by step. Think of it as *my little study corner for containers*.  
 
