@@ -331,20 +331,20 @@ This is the most important part:
 ┌──────────────────────────────────────────┐
 │         Your Friend's PC                 │
 │                                          │
-│  ┌────────────────────────────────────┐ │
-│  │  Linux Kernel 5.15 (HOST KERNEL)   │ │
-│  │  - Manages CPU                     │ │
-│  │  - Manages memory                  │ │
-│  │  - Manages hardware                │ │
-│  └────────────────────────────────────┘ │
-│           ▲              ▲                │
-│           │              │                │
-│     ┌─────┴──────┐ ┌────┴────────┐      │
-│     │ Host       │ │ Container   │      │
-│     │ Processes  │ │ Processes   │      │
-│     │            │ │  - myapp    │      │
-│     │ (Isolated) │ │  (Isolated) │      │
-│     └────────────┘ └─────────────┘      │
+│  ┌────────────────────────────────────┐  │
+│  │  Linux Kernel 5.15 (HOST KERNEL)   │  │
+│  │  - Manages CPU                     │  │
+│  │  - Manages memory                  │  │
+│  │  - Manages hardware                │  │
+│  └────────────────────────────────────┘  │
+│           ▲             ▲                │
+│           │             │                │
+│     ┌─────┴──────┐ ┌────┴────────┐       │
+│     │ Host       │ │ Container   │       │
+│     │ Processes  │ │ Processes   │       │
+│     │            │ │  - myapp    │       │ 
+│     │ (Isolated) │ │  (Isolated) │       │
+│     └────────────┘ └─────────────┘       │
 │                                          │
 └──────────────────────────────────────────┘
 ```
