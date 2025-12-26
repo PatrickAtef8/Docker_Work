@@ -587,4 +587,4 @@ docker rm myproject
 
 ---
 
-**Next:** [09. Best Practices and Workflows](09-best-practices.md) - Professional patterns, volume management, and quick reference.
+**Next:** [09. Best Practices and Workflows](../09-best-practices/README.md) - Professional patterns, volume management, and quick reference.

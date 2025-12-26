@@ -489,4 +489,4 @@ Image remains
 
 ---
 
-**Next:** [07. Complete Practical Example](07-practical-example.md) - Walk through a real build and explore the container.
+**Next:** [07. Complete Practical Example](../07-practical-example/README.md) - Walk through a real build and explore the container.

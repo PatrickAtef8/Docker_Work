@@ -326,4 +326,4 @@ But you don't manage the VM directly - Docker handles it.
 
 ---
 
-**Next:** [04. Docker vs SDK and Cross-Compilation](04-docker-vs-sdk.md) - Learn how Docker fits with embedded development and SDKs.
+**Next:** [04. Docker vs SDK and Cross-Compilation](../04-docker-vs-sdk/README.md) - Learn how Docker fits with embedded development and SDKs.

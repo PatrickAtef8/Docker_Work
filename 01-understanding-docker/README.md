@@ -9,61 +9,61 @@ This guide takes you through Docker systematically, clearing up common misconcep
 
 ## Learning Path
 
-### Part 1: Foundation (20 minutes)
+### Part 1: Foundation 
 
-**[01. The Problem Docker Solves](01-the-problem.md)** - 5 min
+**[01. The Problem Docker Solves](01-the-problem/README.md)** 
 - The "Works on my machine" syndrome
 - Why sending binaries fails
 - Why sending source code fails
 - The Docker solution
 
-**[02. What Docker Actually Is](02-what-is-docker.md)** - 5 min
+**[02. What Docker Actually Is](02-what-is-docker/README.md)** 
 - One-sentence definition
 - What Docker is NOT
 - What Docker IS
 - Core mental model
 
-**[03. Docker vs Virtual Machines](03-docker-vs-vms.md)** - 10 min
+**[03. Docker vs Virtual Machines](03-docker-vs-vms/README.md)** 
 - Why containers are NOT VMs
 - Architecture comparison
 - Kernel sharing explained
 - Performance differences
 
-### Part 2: Docker in Context (15 minutes)
+### Part 2: Docker in Context
 
-**[04. Docker vs SDK and Cross-Compilation](04-docker-vs-sdk.md)** - 10 min
+**[04. Docker vs SDK and Cross-Compilation](04-docker-vs-sdk/README.md)**
 - What SDKs actually do
 - What Docker does differently
 - Common misconceptions about ARM/Raspberry Pi
 - Professional embedded workflow
 
-**[05. Images and Containers](05-images-containers.md)** - 5 min
+**[05. Images and Containers](05-images-containers/README.md)**
 - The fundamental distinction
 - Perfect analogies
 - One image, many containers
 
 ### Part 3: Deep Dive (25 minutes)
 
-**[06. What Happens Behind the Scenes](06-behind-scenes.md)** - 15 min
+**[06. What Happens Behind the Scenes](06-behind-scenes/README.md)**
 - Step-by-step build process
 - What happens during `docker run`
 - Isolation mechanisms
 - Where Docker stores files
 
-**[07. Complete Practical Example](07-practical-example.md)** - 10 min
+**[07. Complete Practical Example](07-practical-example/README.md)** 
 - Building a C++ application
 - Exploring the container filesystem
 - Why it works regardless of host
 
 ### Part 4: Daily Usage (20 minutes)
 
-**[08. Container Management](08-management.md)** - 10 min
+**[08. Container Management](08-management/README.md)**
 - Listing and inspecting containers
 - Container lifecycle
 - Naming vs hostname
 - Cleaning up
 
-**[09. Best Practices and Workflows](09-best-practices.md)** - 10 min
+**[09. Best Practices and Workflows](09-best-practices/README.md)** 
 - Professional patterns
 - Reusing containers
 - Volume management
@@ -73,10 +73,10 @@ This guide takes you through Docker systematically, clearing up common misconcep
 ## Quick Start
 
 If you're in a hurry:
-1. Read [01-the-problem.md](01-the-problem.md) - understand WHY
-2. Read [02-what-is-docker.md](02-what-is-docker.md) - understand WHAT
-3. Read [07-practical-example.md](07-practical-example.md) - see it WORK
-4. Use [09-best-practices.md](09-best-practices.md) - as a reference
+1. Read [01-the-problem.md](01-the-problem/README.md) - understand WHY
+2. Read [02-what-is-docker.md](02-what-is-docker/README.md) - understand WHAT
+3. Read [07-practical-example.md](07-practical-example/README.md) - see it WORK
+4. Use [09-best-practices.md](09-best-practices/README.md) - as a reference
 
 ## Prerequisites
 
@@ -117,4 +117,4 @@ You will understand:
 - When to use Docker (and when not to)
 - How to use Docker professionally
 
-Start with: **[01. The Problem Docker Solves](01-the-problem.md)**
+Start with: **[01. The Problem Docker Solves](01-the-problem/README.md)**

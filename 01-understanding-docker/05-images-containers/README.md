@@ -338,4 +338,4 @@ docker run --name c2 myimage
 
 ---
 
-**Next:** [06. What Happens Behind the Scenes](06-behind-scenes.md) - See exactly what Docker does during build and run.
+**Next:** [06. What Happens Behind the Scenes](../06-behind-scenes/README.md) - See exactly what Docker does during build and run.

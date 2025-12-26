@@ -519,4 +519,4 @@ Shared:
 
 ---
 
-**Next:** [08. Container Management](08-management.md) - Learn how to manage, name, and organize containers.
+**Next:** [08. Container Management](../08-management/README.md) - Learn how to manage, name, and organize containers.

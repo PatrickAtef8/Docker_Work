@@ -232,4 +232,4 @@ A: Basic Linux knowledge helps, but Docker simplifies many things.
 
 ---
 
-**Next:** [03. Docker vs Virtual Machines](03-docker-vs-vms.md) - Understand the crucial differences between containers and VMs.
+**Next:** [03. Docker vs Virtual Machines](../03-docker-vs-vms/README.md) - Understand the crucial differences between containers and VMs.

@@ -356,4 +356,4 @@ Docker adds value when:
 
 ---
 
-**Next:** [05. Images and Containers](05-images-containers.md) - Understand the fundamental Docker concepts.
+**Next:** [05. Images and Containers](../05-images-containers/README.md) - Understand the fundamental Docker concepts.
