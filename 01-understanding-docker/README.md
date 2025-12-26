@@ -1,14 +1,5 @@
 # Understanding Docker: Complete Guide
 
-A comprehensive, step-by-step guide from zero to mastery. Perfect for developers, especially those working with embedded systems, cross-compilation, and SDKs.
-
-## About This Guide
-
-This guide takes you through Docker systematically, clearing up common misconceptions and building deep understanding. Each chapter is standalone but builds on previous concepts.
-
-
-## Learning Path
-
 ### Part 1: Foundation 
 
 **[01. The Problem Docker Solves](01-the-problem/README.md)** 
