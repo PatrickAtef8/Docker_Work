@@ -33,7 +33,7 @@
 - Perfect analogies
 - One image, many containers
 
-### Part 3: Deep Dive (25 minutes)
+### Part 3: Deep Dive
 
 **[06. What Happens Behind the Scenes](06-behind-scenes/README.md)**
 - Step-by-step build process
@@ -46,7 +46,7 @@
 - Exploring the container filesystem
 - Why it works regardless of host
 
-### Part 4: Daily Usage (20 minutes)
+### Part 4: Daily Usage
 
 **[08. Container Management](08-management/README.md)**
 - Listing and inspecting containers
