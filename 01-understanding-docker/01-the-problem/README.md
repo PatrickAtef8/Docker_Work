@@ -206,5 +206,5 @@ Docker does:
 
 ---
 
-**Next:** [02. What Docker Actually Is](01-understanding-docker/02-what-is-docker/README.md) - Learn what Docker really does under the hood.
+**Next:** [02. What Docker Actually Is](../02-what-is-docker/README.md) - Learn what Docker really does under the hood.
 
