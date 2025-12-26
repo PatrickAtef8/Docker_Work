@@ -1,7 +1,5 @@
 # 02. What Docker Actually Is
 
-**Reading time:** 5 minutes
-
 ## One-Sentence Definition
 
 **Docker is a clean, throw-away Linux environment with fixed tools.**

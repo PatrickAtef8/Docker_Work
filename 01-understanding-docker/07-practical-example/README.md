@@ -1,7 +1,5 @@
 # 07. Complete Practical Example
 
-**Reading time:** 10 minutes
-
 This chapter walks through a complete, real example from writing code to running it in Docker.
 
 ## The Application

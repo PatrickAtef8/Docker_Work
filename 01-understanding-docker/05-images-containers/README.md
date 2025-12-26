@@ -1,7 +1,5 @@
 # 05. Images and Containers
 
-**Reading time:** 5 minutes
-
 Understanding the difference between images and containers is crucial to mastering Docker.
 
 ## The Fundamental Distinction

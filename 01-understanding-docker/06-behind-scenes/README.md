@@ -1,7 +1,5 @@
 # 06. What Happens Behind the Scenes
 
-**Reading time:** 15 minutes
-
 This chapter reveals exactly what Docker does during `build` and `run` operations - no hand-waving, step by step.
 
 ## Scenario Setup

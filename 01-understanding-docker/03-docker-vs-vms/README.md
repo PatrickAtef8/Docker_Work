@@ -1,6 +1,5 @@
 # 03. Docker vs Virtual Machines
 
-**Reading time:** 10 minutes
 
 ## The Core Difference
 
@@ -14,7 +13,7 @@ This one distinction explains everything else.
 
 ```
 ┌─────────────────────────────────┐
-│     Your Application            │
+│         Your Application        │
 ├─────────────────────────────────┤
 │     Guest OS (Full Linux)       │
 │     - Own kernel                │
@@ -45,7 +44,7 @@ This one distinction explains everything else.
 
 ```
 ┌─────────────────────────────────┐
-│     Your Application            │
+│         Your Application        │
 ├─────────────────────────────────┤
 │     Container User Space        │
 │     - Libraries                 │

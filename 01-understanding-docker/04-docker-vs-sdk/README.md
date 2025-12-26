@@ -1,7 +1,5 @@
 # 04. Docker vs SDK and Cross-Compilation
 
-**Reading time:** 10 minutes
-
 This chapter is especially important for embedded developers working with Yocto, cross-compilation toolchains, and target hardware like Raspberry Pi.
 
 ## What an SDK Actually Does

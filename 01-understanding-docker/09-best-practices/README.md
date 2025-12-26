@@ -1,7 +1,5 @@
 # 09. Best Practices and Workflows
 
-**Reading time:** 10 minutes
-
 Professional patterns, workflows, and quick reference for daily Docker usage.
 
 ## Core Best Practices

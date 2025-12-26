@@ -6,8 +6,6 @@ A comprehensive, step-by-step guide from zero to mastery. Perfect for developers
 
 This guide takes you through Docker systematically, clearing up common misconceptions and building deep understanding. Each chapter is standalone but builds on previous concepts.
 
-**Total reading time:** ~60 minutes  
-**Hands-on time:** ~2 hours
 
 ## Learning Path
 

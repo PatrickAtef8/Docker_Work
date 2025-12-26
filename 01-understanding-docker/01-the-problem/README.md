@@ -1,7 +1,5 @@
 # 01. The Problem Docker Solves
 
-**Reading time:** 5 minutes
-
 ## The "Works on My Machine" Problem
 
 You and your friend both run Ubuntu.
