@@ -1,5 +1,27 @@
-name: Docker Image CI
+# name: Docker Image CI
 
+# on:
+#   push:
+#     branches: [ "master" ]
+#   pull_request:
+#     branches: [ "master" ]
+
+# jobs:
+#   build:
+#     runs-on: ubuntu-latest
+
+#     steps:
+#       - uses: actions/checkout@v4
+
+#       - name: Build the Docker image
+#         working-directory: 01-understanding-docker
+#         run: docker build -t my-image-name:$(date +%s) .
+
+
+
+name: C++ CI
+
+# Run this workflow on every push or PR to master
 on:
   push:
     branches: [ "master" ]
@@ -7,12 +29,27 @@ on:
     branches: [ "master" ]
 
 jobs:
-  build:
+  build-and-test:
     runs-on: ubuntu-latest
 
     steps:
+      # Step 1: Get your code from GitHub
       - uses: actions/checkout@v4
 
-      - name: Build the Docker image
-        working-directory: 01-understanding-docker
-        run: docker build -t my-image-name:$(date +%s) .
+      # Step 2: Install C++ compiler (g++)
+      - name: Install g++
+        run: sudo apt update && sudo apt install -y g++
+
+      # Step 3: Compile your program
+      - name: Compile C++ program
+        run: g++ 01-understanding-docker/main.cpp -o main
+
+      # Step 4: Run your program (optional test)
+      - name: Run program
+        run: ./main
+
+      # Step 5: Optional: Run linter / formatter
+      - name: Run clang-format
+        run: |
+          sudo apt install -y clang-format
+          clang-format -i 01-understanding-docker/main.cpp
